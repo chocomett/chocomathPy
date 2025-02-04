@@ -1,7 +1,10 @@
-user_input = int(input('tentukan bilangan '))
+from GanjilGenap import start
+import libs
 
-if user_input % 2 == 0:
-    print(f"{user_input} adalah angka genap")
-else:
-    print(f"{user_input} adalah angka ganjil")
+def main():
+    wellcome_message("Wellcome to ChocomathPy")    
+    menu()
+    GanjiGenap.start()
 
+if __name__ == "__main__":
+    main()
