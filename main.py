@@ -1,10 +1,8 @@
-from GanjilGenap import start
-import libs
+from libs import wellcome_message, menu
 
 def main():
-    wellcome_message("Wellcome to ChocomathPy")    
+    wellcome_message()    
     menu()
-    GanjiGenap.start()
 
 if __name__ == "__main__":
     main()
