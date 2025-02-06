@@ -1,4 +1,4 @@
-from games import GanjilGenap
+from games import GanjilGenap, jkw
 
 def wellcome_message():
     title = "Wellcome to ChocomathPy"
@@ -8,12 +8,12 @@ def wellcome_message():
     print(style)
 
 def menu():
-    user_input = int(input("1. GanjilGenap\n2. Rumus blabla\n3. Exit Program\n\nChoose your option.. "))
+    user_input = int(input("1. GanjilGenap\n2. JKW\n3. Exit Program\n\nChoose your option.. "))
     
     if user_input == 1:
         GanjilGenap.start()
     elif user_input == 2:
-        print("program belum ada")
+        jkw.start()
     elif user_input == 3:
         print("Program dihentikan... ")
         exit()
